@@ -12,3 +12,29 @@
 .image{
     width: 50%;
 }
+
+.textTile{
+    background-color: #EBEBEB;
+}
+.textContent {
+    margin: 110px 120px 80px 120px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.textSection{
+    font-size: 30px;
+    color: #3A2975;
+    text-align: left;
+    width: 100%;
+}
+
+.readMoreBtn{
+    width: 250px;
+    height: 60px;
+    margin-top: 80px;
+    background-color: #760326;
+    color: white;
+    font-size: 30px;
+}
