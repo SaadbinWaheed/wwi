@@ -1,0 +1,14 @@
+.imageGrid{
+    width: 100vw;
+    height: 100vh;
+}
+
+.imageRow{
+    width: 100%;
+    flex-direction: row;
+    display: flex;
+}
+
+.image{
+    width: 50%;
+}

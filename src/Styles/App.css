@@ -1,0 +1,66 @@
+
+html {
+  width: 100vw;
+  height: 100vh;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;}
+
+div#root {
+  background-color:#AA546E12;
+   width: 100vw;
+ height: 100vh;
+}
+
+.Toolbar {
+  background-color: #D9D9D9;
+  width: 100%;
+}
+
+.Header {
+  background-color: #D9D9D9;
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.Logo{
+  height: 117px;
+  width: 490px;
+}
+.Tabs{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+/* Tab Navigation */
+ul.nav {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-weight: 500;
+  padding-left: 0px;
+  @media (max-width: 768px) {
+    width: 90%;
+  }
+}
+ul.nav li {
+ 
+  padding: 1rem;
+  list-style: none;
+  text-align: center;
+  cursor: pointer;
+  color: #760326;
+  font-size: 30px;
+  transition: all 0.7s;
+  margin-right: 5px;
+}
+
+ul.nav li.active {
+  border-bottom: 1px solid #760326;
+}
