@@ -13,6 +13,9 @@
     width: 50%;
 }
 
+img{
+    object-fit: cover;
+}
 .textTile{
     background-color: #EBEBEB;
 }
