@@ -5,23 +5,11 @@ import { useState } from 'react';
 import { Home } from './Components/AllTabs/Home';
 import  Footer from './Components/AllTabs/Footer';
 import { GetInTouch } from './Components/AllTabs/GetInTouch';
-
+import { BrowserRouter as Router, Route } from '@mui/icons-material';
 function App() {
-  const [currentTab,setCurrentTab] = useState(0);
-  console.log(">>",currentTab)
-  return (
-    <div className="App">
-      <Header setCurrentTab={setCurrentTab} currentTab={currentTab}/>
-      <div>
-        <p>
-          <Home id={0} currentTab={currentTab} />
-       <GetInTouch/>   
-     <Footer />
-  
-        </p>
-      </div>
-    </div>
-  );
+  <Router>
+    <Route path = "./Component/AllTabs/Home" component ={HomePage} exact />
+  </Router>
 }
 
 export default App;

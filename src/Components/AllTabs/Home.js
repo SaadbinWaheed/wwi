@@ -8,10 +8,7 @@ export const Home = ({id, currentTab}) =>{
 
     return id === currentTab? (
         <div className="imageGrid">
-            <div className="imageRow">
-                <img  className="image" src={topLeftLogo} alt="logo" />
-                <img  className="image"  src={topRightImg} alt="logo" />
-            </div>
+            
             <div className="imageRow">
                 <img  className="image" src={bottomLeftLogo} alt="logo" />
                 <div className='textTile'>
