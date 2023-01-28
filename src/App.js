@@ -6,6 +6,7 @@ import { Home } from './Components/AllTabs/Home';
 import { Footer } from './Components/AllTabs/Footer';
 import { GetInTouch } from './Components/AllTabs/GetInTouch';
 
+// This is my comment
 function App() {
   const [currentTab,setCurrentTab] = useState(0);
   console.log(">>",currentTab)
