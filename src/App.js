@@ -3,7 +3,7 @@ import './Styles/App.css';
 import Header from './Components/Header';
 import { useState } from 'react';
 import { Home } from './Components/AllTabs/Home';
-import { Footer } from './Components/AllTabs/Footer';
+import  Footer from './Components/AllTabs/Footer';
 import { GetInTouch } from './Components/AllTabs/GetInTouch';
 
 function App() {
